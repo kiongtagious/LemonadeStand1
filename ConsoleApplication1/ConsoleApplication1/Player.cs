@@ -1,6 +1,7 @@
 ﻿namespace ConsoleApplication1
 {
-    internal class Player
+    public class Player
     {
+       public double cash = 10;
     }
 }

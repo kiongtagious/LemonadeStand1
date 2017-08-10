@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Game
+    public class Game
     {
+        Store store;
+        Player player;
+
+        public Game()
+        {
+            store = new Store(player);
+            player = new Player();
+        }
     }
 }

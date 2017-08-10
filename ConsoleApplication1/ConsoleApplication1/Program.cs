@@ -10,6 +10,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            Game start = new Game();
+            start.RunGame(start);
         }
     }
 }
