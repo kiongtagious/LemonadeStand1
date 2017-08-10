@@ -8,5 +8,13 @@ namespace ConsoleApplication1
 {
     class Ice
     {
+        public double setPrice;
+        public int totalAmountPerCup;
+
+        public Ice()
+        {
+            setPrice = .10;
+            totalAmountPerCup = 1;
+        }
     }
 }

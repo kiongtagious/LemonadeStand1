@@ -8,5 +8,13 @@ namespace ConsoleApplication1
 {
     class Cups
     {
+        public double setPrice;
+        public int numberOfCups;
+
+        public Cups()
+        {
+            setPrice = .10;
+            numberOfCups = 1;
+        }
     }
 }

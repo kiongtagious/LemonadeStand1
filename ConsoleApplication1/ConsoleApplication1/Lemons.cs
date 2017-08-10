@@ -6,17 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    public class Lemons
+    class Lemons
     {
-        public double costPerLemon;
-
-        public int quantity;
+        public double setPrice;
+        public int numberOfLemons;
 
         public Lemons()
         {
-            quantity = 1;
-
-            costPerLemon = .10;
+            setPrice = .10;
+            numberOfLemons = 1;
         }
     }
 }

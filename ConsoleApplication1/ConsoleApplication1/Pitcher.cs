@@ -8,5 +8,13 @@ namespace ConsoleApplication1
 {
     class Pitcher
     {
+        public double setPrice;
+        public int numberOfPitcher;
+
+        public Pitcher()
+        {
+            setPrice = 3.00;
+            numberOfPitcher = 1;
+        }
     }
 }
