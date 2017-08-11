@@ -6,7 +6,29 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Weather
+    public class Weather
     {
+        public string todaysWeather;
+        public int currentTemperature;
+
+        public Weather(int currentTemperature)
+        {
+            this.currentTemperature = currentTemperature;
+        }
+        public void GetWeather()
+        {
+            if (currentTemperature >= 70)
+            {
+                todaysWeather = "Sunny Day";
+            }
+            else if (currentTemperature <= 69)
+            {
+                todaysWeather = "Cloudy Day";
+            }
+            else if (currentTemperature <= 55)
+            {
+                todaysWeather = "Rainy Day";
+            }
+        }
     }
 }
