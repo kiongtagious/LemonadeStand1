@@ -48,6 +48,7 @@
     </Compile>
     <Compile Include="Cups.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="Game.cs" />
     <Compile Include="Ice.cs" />
     <Compile Include="Lemons.cs" />
     <Compile Include="Pitcher.cs" />
@@ -55,7 +56,9 @@
     <Compile Include="..\..\Weather.cs">
       <Link>Weather.cs</Link>
     </Compile>
+    <Compile Include="Recipe.cs" />
     <Compile Include="Store.cs" />
+    <Compile Include="Sugar.cs" />
     <Compile Include="Supplies.cs" />
     <Compile Include="UserInterface.cs" />
   </ItemGroup>

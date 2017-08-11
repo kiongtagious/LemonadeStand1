@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    public class Ice
+    class Sugar
     {
         public double setPrice;
         public int totalAmountPerCup;
 
-        public Ice()
+        public Sugar()
         {
             setPrice = .10;
             totalAmountPerCup = 1;

@@ -2,6 +2,6 @@
 {
     public class Player
     {
-       public double cash = 10;
+       public double bank = 10;
     }
 }

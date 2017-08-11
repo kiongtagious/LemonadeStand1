@@ -18,6 +18,7 @@ namespace ConsoleApplication1
         }
         public void GetCustomer(Weather weather)
         {
+
             if (weather.todaysWeather == "Sunny Day")
             {
                 buyingChance = (9 / 10) * 100;
