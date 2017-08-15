@@ -23,7 +23,7 @@ namespace ConsoleApplication1
             Console.ReadKey();
             Console.WriteLine("Whether you make a profit will depend on other factors such as weather and price.");
             Console.ReadKey();
-            Console.WriteLine("Think you got what it takes? Ready to make some gwala? Well then....");
+            Console.WriteLine("Think you got what it takes? Well then...");
             Console.ReadKey();
             Console.WriteLine("Let's get ready to HUSTLLLLLLLLEEE! - Michael Buffer(Boxing Ring Announcer)");
             Console.ReadKey();

@@ -26,14 +26,14 @@ namespace ConsoleApplication1
                 numberOfLemons = 3;
                 totalIcePerCup = 3;
                 totalSugarPerCup = 3;
-                numberOfCups = 3;
+                numberOfCups = 1;
             }
             else if (weather.todaysWeather == "Cloudy Day")
             {
                 numberOfLemons = 2;
                 totalIcePerCup = 2;
                 totalSugarPerCup = 2;
-                numberOfCups = 2;
+                numberOfCups = 1;
             }
             else if (weather.todaysWeather == "Rainy Day")
             {
