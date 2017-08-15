@@ -42,6 +42,7 @@ namespace ConsoleApplication1
                 totalSugarPerCup = 1;
                 numberOfCups = 1;
             }
+            
         }
         
       

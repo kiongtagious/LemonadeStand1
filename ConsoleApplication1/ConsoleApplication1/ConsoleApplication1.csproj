@@ -63,7 +63,6 @@
     <Compile Include="Store.cs" />
     <Compile Include="Sugar.cs" />
     <Compile Include="Supplies.cs" />
-    <Compile Include="UserInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
