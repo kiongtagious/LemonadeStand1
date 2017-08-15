@@ -1,7 +1,20 @@
-﻿namespace ConsoleApplication1
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
 {
     public class Player
     {
-       public double bank = 10;
+        double bank = 10;
+
+        Inventory inventory;
+        public Player()
+        {
+            
+            inventory = new Inventory();
+        }
     }
 }

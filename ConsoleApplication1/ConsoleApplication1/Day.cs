@@ -8,10 +8,13 @@ namespace ConsoleApplication1
 {
     class Day
     {
+        Customer customer;
+        Store store;
 
-        // total profit and loss of the day
-        // weather conditions
-        // number of customers buying
-    
+        public Day()
+        {
+            customer = new Customer();
+            store = new Store();
+        }
     }
 }

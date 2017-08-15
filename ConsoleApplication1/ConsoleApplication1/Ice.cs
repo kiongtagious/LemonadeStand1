@@ -9,12 +9,12 @@ namespace ConsoleApplication1
     public class Ice
     {
         public double setPrice;
-        public int totalAmountPerCup;
+        public int totalIcePerCup;
 
         public Ice()
         {
             setPrice = .10;
-            totalAmountPerCup = 1;
+            totalIcePerCup = 1;
         }
     }
 }

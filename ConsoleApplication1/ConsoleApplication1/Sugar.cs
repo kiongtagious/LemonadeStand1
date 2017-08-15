@@ -9,12 +9,12 @@ namespace ConsoleApplication1
     class Sugar
     {
         public double setPrice;
-        public int totalAmountPerCup;
+        public int totalSugarPerCup;
 
         public Sugar()
         {
             setPrice = .10;
-            totalAmountPerCup = 1;
+            totalSugarPerCup = 1;
         }
     }
 }
